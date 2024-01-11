@@ -1,0 +1,96 @@
+nav {
+    background-color: #333; /* Color de fondo de la barra de navegación */
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px; /* Espaciado interno para cada enlace */
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd; /* Color de fondo al pasar el ratón sobre un enlace */
+    color: black;
+}
+    .hero-image {
+        width: 100%; /* Abarcar el ancho completo de la pantalla */
+        height: auto; /* Mantener la proporción original de la imagen */
+        display: block;
+    }
+.destacado {
+    color: cornflowerblue;
+    font-weight: bold;
+}
+h1, h2{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.nuestros-productos {
+    display: grid;
+    width: 90%;
+    margin: auto;
+    gap: 3px;
+    background-color: white;
+    padding: 5px;
+  }
+  .producto-1 {
+    display: grid;
+    grid-template-areas: 
+    'imagen-peoducto1 product-info';
+    gap: 0px;
+    border: gray 1px solid;
+    border-radius: 10px;
+    padding: 0%;
+    border-color: #dce1e6;
+}
+.imagen1 {
+    max-height: 200px;
+    width: 100%;
+    border-radius: 10px 0 0 10px;
+
+}
+.product-info {
+    background-color: #3498db; /* Fondo azul */
+    color: white;
+    padding: 2px;
+    text-align: center;
+    margin: 0px;
+}
+
+button {
+    color: white;
+    background-color: greenyellow;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 15px;
+}
+
+footer {
+    padding: 30px 0;
+}
+footer .copyright {
+    text-align: center;
+    font-size: 12px;
+}
+.enlaces-footer {
+    width: 60%;
+    margin: auto;
+}
+
+.enlaces-footer li {
+    list-style: none;
+}
+
+.enlaces-footer a {
+    text-decoration: none;
+    color: #333;
+}
+
+.enlaces-footer a:hover {
+    color: gray;
+}
